@@ -1,0 +1,62 @@
+
+class Student1{
+	private String name;
+	private int age;
+	private String city;
+	
+	
+	 public Student1(String name,int age,String city) {
+		this();
+		 this.age=age;
+	 this.name=name;
+	 this.city=city; }
+	 
+	 
+	public Student1() {
+		//this("Nitin");
+		age=30;
+		city="bangaluru";
+	}
+	
+	public Student1(String name) {
+		this.name=name;
+		
+	}
+
+	
+
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public String getCity() {
+		return city;
+	}
+	
+	
+}
+
+public class LaunchStud {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Student1 st1 = new Student1("hyder",28,"pune");
+		System.out.println(st1.getAge());
+		System.out.println(st1.getCity());
+		System.out.println(st1.getName());
+		
+		Student1 st2= new Student1();
+		System.out.println(st2.getCity());
+		
+		Student1 st3 = new Student1("Nitin");
+		System.out.println(st3.getName());
+		
+		System.out.println(st3.getCity());
+		
+
+	}
+
+}

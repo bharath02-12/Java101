@@ -1,0 +1,37 @@
+
+// Dependet Obj 
+class Branch{
+	String bid;
+	String bname;
+	public String getBid() {
+		return bid;
+	}
+	public void setBid(String bid) {
+		this.bid = bid;
+	}
+	public String getBname() {
+		return bname;
+	}
+	public void setBname(String bname) {
+		this.bname = bname;
+	}
+	
+}
+
+class Student{
+	int sid;
+	String sname;
+	String sadd;
+	
+	Branch bracnh;
+}
+
+
+public final class LaunchManyToMany_16th {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

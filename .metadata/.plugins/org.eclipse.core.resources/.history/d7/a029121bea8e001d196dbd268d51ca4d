@@ -1,0 +1,23 @@
+
+class Demo1{
+	String name;
+	int age=28;
+	void disp() {
+		System.out.println("Demo 1"+age+name);
+	}
+}
+
+class Demo2{
+	
+}
+
+public class LaunchInheritance1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Demo2 d=new Demo2();
+
+	}
+
+}

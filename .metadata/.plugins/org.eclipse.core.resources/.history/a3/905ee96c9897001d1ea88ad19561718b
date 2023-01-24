@@ -1,0 +1,30 @@
+
+class stu{
+	private String sname;
+	private int sage;
+	private String scity;
+	
+	public stu(String sname, int sage, String scity)
+	{
+		this("Bharath");
+		this.sname = sname;
+		this.sage = sage;
+		this.scity = scity;
+	}
+
+	public stu(String sname) {
+		
+		this.sname = sname;
+	}
+	
+	
+	
+	
+}
+public class LaunchStu2 {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

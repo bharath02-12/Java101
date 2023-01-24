@@ -1,0 +1,26 @@
+
+class Dog{
+	private String Name;
+	private int cost;
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public int getCost() {
+		return cost;
+	}
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+	
+	
+	
+}
+public class LaunchDog {
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+
+
+class Employeee{
+	 String eid;
+	 String ename;
+	 String eaddrr;
+	public Employeee(String eid, String ename, String eaddrr) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.eaddrr = eaddrr;
+	}
+	
+}
+
+class Department{
+	private String did;
+	private String dname;
+	// HAS-A Variable 
+	private Employee[] emp;
+	
+	
+	
+}
+public class OneToManyAssociation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

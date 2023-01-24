@@ -1,0 +1,8 @@
+
+class Student1() {
+	
+}
+public class LaunchStud {
+	public static void main(String[] args) {}
+
+}

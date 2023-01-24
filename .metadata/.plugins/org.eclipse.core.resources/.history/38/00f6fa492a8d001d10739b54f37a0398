@@ -1,0 +1,14 @@
+
+class Student1() 
+{
+	private String name;
+	private int age;
+	private String city;
+	
+}
+public class LaunchStud {
+	public static void main(String[] args) {
+		
+	}
+
+}
