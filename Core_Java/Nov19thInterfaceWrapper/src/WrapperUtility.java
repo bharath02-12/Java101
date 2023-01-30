@@ -57,6 +57,10 @@ public class WrapperUtility {
 		String s= Integer.toString(10);
 		System.out.println(s);
 		
+		Integer x =127;
+		Integer y = 127;
+		System.out.println(x==y);
+		
 		
 		
 		
