@@ -5,7 +5,7 @@
 	}
 }
 class Car extends Vechile{
-	public  void  speed() {
+	public  void  sspeed() {
 		
 		System.out.println(" Hello Car !!");;}
 }
