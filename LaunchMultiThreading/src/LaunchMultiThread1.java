@@ -1,4 +1,12 @@
-class MyThread extends Thread{
+class MyThread implements Runnable{
+
+	@Override
+	public void run() {
+		for( int i=0;i<10;i++) {
+			System.out.println(" Child Thread! = "+i );	
+			}
+		
+	}
 	
 	/* 
 	 * 	@Override
@@ -24,7 +32,8 @@ public class LaunchMultiThread1 {
 		// TODO Auto-generated method stub
 		
 		MyThread mt= new MyThread();
-		mt.start();
+		Thread t20= new Thread();
+		t20.start();
 		System.out.println(" ---------------------------");
 		//mt.run();
 		System.out.println(" Ayyo");

@@ -26,7 +26,7 @@ public class LaunchMutliThread2ndInterface {
 		t.start();
 		
 		*/
-		//t3.start();
+	//t3.start();
 		
 		for(int i=1;i<=10;i++) {
 			System.out.println(" Main Thread "+i);

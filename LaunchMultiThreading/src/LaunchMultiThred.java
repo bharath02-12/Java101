@@ -15,6 +15,7 @@ public class LaunchMultiThred {
 
 		
 		MyThread005 m005= new MyThread005();
+		//m005.start();
 		
 		Thread t005= new Thread();
 		t005.start();//---> Creats new Thread be
