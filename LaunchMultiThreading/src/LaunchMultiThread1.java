@@ -1,4 +1,4 @@
-class MyThread implements Runnable{
+class MyThread00 implements Runnable{
 
 	@Override
 	public void run() {
@@ -31,7 +31,7 @@ public class LaunchMultiThread1 {
 	{
 		// TODO Auto-generated method stub
 		
-		MyThread mt= new MyThread();
+		MyThread00 mt= new MyThread00();
 		Thread t20= new Thread();
 		t20.start();
 		System.out.println(" ---------------------------");

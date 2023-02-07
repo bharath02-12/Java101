@@ -3,6 +3,8 @@ class MyThread005 extends Thread{
 	
 	public void run() {
 		System.out.println(" Child Thread !");
+		System.out.println(Thread.currentThread().getName());
+
 	}
 	
 }
@@ -15,11 +17,12 @@ public class LaunchMultiThred {
 
 		
 		MyThread005 m005= new MyThread005();
-		//m005.start();
-		
+		m005.start();
+		System.out.println(Thread.currentThread().getName());
+		/*
 		Thread t005= new Thread();
-		t005.start();//---> Creats new Thread be
-		
+		t005.start();//---> Creats new Thread be and calls the run ( No IMP) of Thread
+		*/
 		System.out.println(" Main Thread ");
 		
 	}
