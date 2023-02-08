@@ -1,3 +1,4 @@
+import java.util.*;
 class ThreadB extends Thread{
 	int total =0;
 	@Override 
