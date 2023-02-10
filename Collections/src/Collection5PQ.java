@@ -14,6 +14,7 @@ public class Collection5PQ {
 		pq.add(15);
 		pq.add(100);
 		pq.add(50);
+		pq.add(50);
 		
 		System.out.println(pq);
 		System.out.println("*************");

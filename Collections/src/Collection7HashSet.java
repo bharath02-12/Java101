@@ -9,6 +9,7 @@ public class Collection7HashSet {
 		hs.add(50);
 		hs.add(150);
 		hs.add(25);
+		hs.add(25);
 		System.out.println(hs);
 		
 

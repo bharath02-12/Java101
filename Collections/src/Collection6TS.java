@@ -14,7 +14,10 @@ public class Collection6TS {
 		ts.add(75);
 		ts.add(125);
 		ts.add(175);
-		System.out.println(ts);
+		ts.add(50);
+		ts.add(175);
+		System.out.println(ts);//-------------> No Duplicats 
+		System.out.println("-------------------------");
 		System.out.println(ts.ceiling(50));
 		System.out.println(ts.higher(50));
 		System.out.println(ts.floor(50));
