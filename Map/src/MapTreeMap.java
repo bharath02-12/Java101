@@ -8,7 +8,7 @@ public class MapTreeMap {
 		tm.put(12, "Rohit");
 		tm.put(13,"RAVU");
 		
-		//System.out.println(tm);
+		System.out.println(tm);
 
 	}
 
