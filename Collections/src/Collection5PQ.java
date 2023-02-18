@@ -30,7 +30,7 @@ public class Collection5PQ {
 		LinkedList ll = new LinkedList();
 		ll.addAll(pq);
 		
-		System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+		System.out.println("&&&&&&&&&&& FOR REVERSE I HAVE TO ADD QUEUE TO LIST &&&&&&&&&&&&&&&&");
 		ListIterator li=ll.listIterator(ll.size());
 		
 		while(li.hasPrevious()) 

@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
+
 public class CollectionsFFFS {
 
 	public static void main(String[] args) 
@@ -20,8 +21,7 @@ public class CollectionsFFFS {
 		System.out.println("*********** Iterator *********" );
 		System.out.println(" ");
 	
-		/*
-		 * IN-FINATE LOOP....
+		
 		Iterator itr =al1.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
@@ -33,7 +33,7 @@ public class CollectionsFFFS {
 				System.out.println(" Sorry there is exception !!");
 			}
 		}
-		*/
+	
 	
 		
 		
@@ -55,3 +55,10 @@ public class CollectionsFFFS {
 	}
 
 }
+
+
+
+
+
+
+
