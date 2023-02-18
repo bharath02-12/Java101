@@ -10,6 +10,8 @@ public class LaunchNormalMulti {
 		
 		My m = new My();
 		m.start();
+		Thread t = new Thread();
+		t.start();
 		System.out.println(" Hello Main");
 
 	}

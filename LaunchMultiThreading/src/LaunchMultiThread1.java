@@ -32,8 +32,13 @@ public class LaunchMultiThread1 {
 		// TODO Auto-generated method stub
 		
 		MyThread00 mt= new MyThread00();
-		Thread t20= new Thread();
+		//Thread t10= new Thread();
+		Thread t20= new Thread(mt);
+		//t10.start();
 		t20.start();
+		//t10.run();
+		t20.run();
+		
 		System.out.println(" ---------------------------");
 		//mt.run();
 		System.out.println(" Ayyo");
