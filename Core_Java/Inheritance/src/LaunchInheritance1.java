@@ -1,7 +1,6 @@
 
 class Demo1{
-	
-	
+
 	 String name;
 	int age=28;
 	void disp() { 

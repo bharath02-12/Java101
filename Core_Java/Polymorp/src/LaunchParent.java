@@ -11,7 +11,7 @@ class Child1 extends Parent{
 	}
 	
 }
-class Child2 extends Parent{
+class Child2 extends Child1{
 	public void cry() {
 		System.out.println("Child crys at high voice !!");
 	}
@@ -30,21 +30,17 @@ public class LaunchParent {
 		int b=20;
 		
 		Child1 ch1= new Child1();
+		ch1.cry();
 		Child2 ch2 = new Child2();
-		
-		StringBuilder sb = new StringBuilder(6);
-		
-		Parent ref;// variable to store obj type value 
-		
-	ref=ch1;
-	ref.cry();
-	
-	ref=ch2;
-	ref.cry();
-		
-		ch1.cry();
-		ch1.cry();
 		ch2.cry();
+		
+		Parent p1 =new Child1();
+		p1.cry();
+		Child1 p2= new Child2();
+		p2.cry();
+		
+		
+		
 		
 
 	}
