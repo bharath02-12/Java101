@@ -11,7 +11,7 @@ class Account implements Serializable{
 	String userName="sachin";
 	transient String password="tendulkar";//
 	
-	// Write a logic of Deserialization
+	// Write a logic of serialization
 	private void writeObject(ObjectOutputStream oos) throws Exception{
 		oos.defaultWriteObject();
 		String encypwd="123"+password;
